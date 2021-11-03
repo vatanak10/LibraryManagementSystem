@@ -30,14 +30,14 @@ namespace LibraryManagementSystem
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBoxInput = new System.Windows.Forms.GroupBox();
-            this.tbBookName = new System.Windows.Forms.TextBox();
-            this.textBoxAuthor = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxAuthor = new System.Windows.Forms.TextBox();
+            this.tbBookName = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBoxInput.SuspendLayout();
             this.SuspendLayout();
@@ -52,6 +52,15 @@ namespace LibraryManagementSystem
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::LibraryManagementSystem.Properties.Resources.book;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Location = new System.Drawing.Point(184, 25);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(66, 62);
+            this.panel1.TabIndex = 1;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -63,15 +72,6 @@ namespace LibraryManagementSystem
             this.label1.TabIndex = 0;
             this.label1.Text = "Request Book";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::LibraryManagementSystem.Properties.Resources.book;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(184, 25);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(66, 62);
-            this.panel1.TabIndex = 1;
             // 
             // groupBoxInput
             // 
@@ -86,26 +86,6 @@ namespace LibraryManagementSystem
             this.groupBoxInput.TabIndex = 1;
             this.groupBoxInput.TabStop = false;
             // 
-            // tbBookName
-            // 
-            this.tbBookName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.tbBookName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
-            this.tbBookName.Font = new System.Drawing.Font("Dangrek", 12F);
-            this.tbBookName.Location = new System.Drawing.Point(250, 19);
-            this.tbBookName.Name = "tbBookName";
-            this.tbBookName.Size = new System.Drawing.Size(264, 36);
-            this.tbBookName.TabIndex = 0;
-            // 
-            // textBoxAuthor
-            // 
-            this.textBoxAuthor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxAuthor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
-            this.textBoxAuthor.Font = new System.Drawing.Font("Dangrek", 12F);
-            this.textBoxAuthor.Location = new System.Drawing.Point(250, 75);
-            this.textBoxAuthor.Name = "textBoxAuthor";
-            this.textBoxAuthor.Size = new System.Drawing.Size(264, 36);
-            this.textBoxAuthor.TabIndex = 0;
-            // 
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Dangrek", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -114,8 +94,20 @@ namespace LibraryManagementSystem
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(164, 62);
             this.btnSubmit.TabIndex = 1;
-            this.btnSubmit.Text = "SUBMIT";
+            this.btnSubmit.Text = "Request Book";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label3.Location = new System.Drawing.Point(138, 78);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(106, 27);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Author Name:";
+            this.label3.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -129,17 +121,25 @@ namespace LibraryManagementSystem
             this.label2.Text = "Book Name:";
             this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label3
+            // textBoxAuthor
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Dangrek", 12F);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(138, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 27);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Author Name:";
-            this.label3.Click += new System.EventHandler(this.label1_Click);
+            this.textBoxAuthor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxAuthor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
+            this.textBoxAuthor.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.textBoxAuthor.Location = new System.Drawing.Point(250, 75);
+            this.textBoxAuthor.Name = "textBoxAuthor";
+            this.textBoxAuthor.Size = new System.Drawing.Size(264, 36);
+            this.textBoxAuthor.TabIndex = 0;
+            // 
+            // tbBookName
+            // 
+            this.tbBookName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.tbBookName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
+            this.tbBookName.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.tbBookName.Location = new System.Drawing.Point(250, 19);
+            this.tbBookName.Name = "tbBookName";
+            this.tbBookName.Size = new System.Drawing.Size(264, 36);
+            this.tbBookName.TabIndex = 0;
             // 
             // Form1
             // 
