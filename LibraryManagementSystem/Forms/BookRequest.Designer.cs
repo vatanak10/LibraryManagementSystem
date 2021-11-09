@@ -38,12 +38,14 @@ namespace LibraryManagementSystem
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxAuthor = new System.Windows.Forms.TextBox();
             this.tbBookName = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBoxInput.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(58, 36);
@@ -64,11 +66,11 @@ namespace LibraryManagementSystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Dangrek", 30F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(256, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(258, 68);
+            this.label1.Size = new System.Drawing.Size(474, 79);
             this.label1.TabIndex = 0;
             this.label1.Text = "Request Book";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -88,7 +90,7 @@ namespace LibraryManagementSystem
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Font = new System.Drawing.Font("Dangrek", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnSubmit.Location = new System.Drawing.Point(262, 143);
             this.btnSubmit.Name = "btnSubmit";
@@ -100,11 +102,11 @@ namespace LibraryManagementSystem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(138, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 27);
+            this.label3.Size = new System.Drawing.Size(189, 32);
             this.label3.TabIndex = 0;
             this.label3.Text = "Author Name:";
             this.label3.Click += new System.EventHandler(this.label1_Click);
@@ -112,11 +114,11 @@ namespace LibraryManagementSystem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(138, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 27);
+            this.label2.Size = new System.Drawing.Size(170, 32);
             this.label2.TabIndex = 0;
             this.label2.Text = "Book Name:";
             this.label2.Click += new System.EventHandler(this.label1_Click);
@@ -125,21 +127,30 @@ namespace LibraryManagementSystem
             // 
             this.textBoxAuthor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxAuthor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
-            this.textBoxAuthor.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.textBoxAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.textBoxAuthor.Location = new System.Drawing.Point(250, 75);
             this.textBoxAuthor.Name = "textBoxAuthor";
-            this.textBoxAuthor.Size = new System.Drawing.Size(264, 36);
+            this.textBoxAuthor.Size = new System.Drawing.Size(264, 39);
             this.textBoxAuthor.TabIndex = 0;
             // 
             // tbBookName
             // 
             this.tbBookName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.tbBookName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
-            this.tbBookName.Font = new System.Drawing.Font("Dangrek", 12F);
+            this.tbBookName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.tbBookName.Location = new System.Drawing.Point(250, 19);
             this.tbBookName.Name = "tbBookName";
-            this.tbBookName.Size = new System.Drawing.Size(264, 36);
+            this.tbBookName.Size = new System.Drawing.Size(264, 39);
             this.tbBookName.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(8, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 44);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -171,6 +182,7 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.TextBox tbBookName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
