@@ -38,12 +38,14 @@ namespace LibraryManagementSystem
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxAuthor = new System.Windows.Forms.TextBox();
             this.tbBookName = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBoxInput.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(116, 69);
@@ -72,7 +74,9 @@ namespace LibraryManagementSystem
             this.label1.Location = new System.Drawing.Point(512, 48);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
+
             this.label1.Size = new System.Drawing.Size(537, 91);
+
             this.label1.TabIndex = 0;
             this.label1.Text = "Request Book";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -113,6 +117,7 @@ namespace LibraryManagementSystem
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(217, 37);
+
             this.label3.TabIndex = 0;
             this.label3.Text = "Author Name:";
             this.label3.Click += new System.EventHandler(this.label1_Click);
@@ -126,6 +131,7 @@ namespace LibraryManagementSystem
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(194, 37);
+
             this.label2.TabIndex = 0;
             this.label2.Text = "Book Name:";
             this.label2.Click += new System.EventHandler(this.label1_Click);
@@ -135,10 +141,12 @@ namespace LibraryManagementSystem
             this.textBoxAuthor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBoxAuthor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
             this.textBoxAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+
             this.textBoxAuthor.Location = new System.Drawing.Point(500, 144);
             this.textBoxAuthor.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxAuthor.Name = "textBoxAuthor";
             this.textBoxAuthor.Size = new System.Drawing.Size(524, 44);
+
             this.textBoxAuthor.TabIndex = 0;
             // 
             // tbBookName
@@ -150,7 +158,17 @@ namespace LibraryManagementSystem
             this.tbBookName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbBookName.Name = "tbBookName";
             this.tbBookName.Size = new System.Drawing.Size(524, 44);
+
             this.tbBookName.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(8, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 44);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -183,6 +201,7 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.TextBox tbBookName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
