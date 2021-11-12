@@ -69,5 +69,15 @@ namespace LibraryManagementSystem.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_1507842217343_583bb7270b66 {
+            get {
+                object obj = ResourceManager.GetObject("photo-1507842217343-583bb7270b66", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
