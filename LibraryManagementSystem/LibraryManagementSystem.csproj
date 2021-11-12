@@ -52,16 +52,19 @@
     <Compile Include="Forms\BookRequest.Designer.cs">
       <DependentUpon>BookRequest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\generalSetting.cs">
+    <Compile Include="Forms\GeneralSetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\generalSetting.Designer.cs">
-      <DependentUpon>generalSetting.cs</DependentUpon>
+    <Compile Include="Forms\GeneralSetting.Designer.cs">
+      <DependentUpon>GeneralSetting.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\BookRequest.resx">
       <DependentUpon>BookRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GeneralSetting.resx">
+      <DependentUpon>GeneralSetting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
