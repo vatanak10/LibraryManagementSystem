@@ -52,10 +52,37 @@
     <Compile Include="Forms\BookRequest.Designer.cs">
       <DependentUpon>BookRequest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notification.Designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GeneralSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GeneralSetting.Designer.cs">
+      <DependentUpon>GeneralSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Personalize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Personalize.Designer.cs">
+      <DependentUpon>Personalize.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\BookRequest.resx">
       <DependentUpon>BookRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notification.resx">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GeneralSetting.resx">
+      <DependentUpon>GeneralSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Personalize.resx">
+      <DependentUpon>Personalize.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
