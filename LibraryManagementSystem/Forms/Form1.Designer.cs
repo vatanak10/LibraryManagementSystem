@@ -1,5 +1,5 @@
 ﻿
-namespace LibraryManagementSystem
+namespace LibraryManagementSystem.Forms
 {
     partial class Form1
     {
@@ -38,4 +38,3 @@ namespace LibraryManagementSystem
         #endregion
     }
 }
-
