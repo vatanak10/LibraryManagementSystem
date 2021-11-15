@@ -52,7 +52,6 @@
     <Compile Include="Forms\BookRequest.Designer.cs">
       <DependentUpon>BookRequest.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Forms\Notification.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,14 +69,18 @@
     </Compile>
     <Compile Include="Forms\Personalize.Designer.cs">
       <DependentUpon>Personalize.cs</DependentUpon>
-
+    </Compile>
+    <Compile Include="Forms\SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\BookRequest.resx">
       <DependentUpon>BookRequest.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Forms\Notification.resx">
       <DependentUpon>Notification.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,7 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Personalize.resx">
       <DependentUpon>Personalize.cs</DependentUpon>
-
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
