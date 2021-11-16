@@ -52,55 +52,37 @@
     <Compile Include="Forms\BookRequest.Designer.cs">
       <DependentUpon>BookRequest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Notification.cs">
+    <Compile Include="Forms\Setting Forms\Notification.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Notification.Designer.cs">
+    <Compile Include="Forms\Setting Forms\Notification.Designer.cs">
       <DependentUpon>Notification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\GeneralSetting.cs">
+    <Compile Include="Forms\Setting Forms\GeneralSetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\GeneralSetting.Designer.cs">
+    <Compile Include="Forms\Setting Forms\GeneralSetting.Designer.cs">
       <DependentUpon>GeneralSetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Personalize.cs">
+    <Compile Include="Forms\Setting Forms\Personalize.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Personalize.Designer.cs">
+    <Compile Include="Forms\Setting Forms\Personalize.Designer.cs">
       <DependentUpon>Personalize.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SignIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SignIn.Designer.cs">
-      <DependentUpon>SignIn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SignUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SignUp.Designer.cs">
-      <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\BookRequest.resx">
       <DependentUpon>BookRequest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Notification.resx">
+    <EmbeddedResource Include="Forms\Setting Forms\Notification.resx">
       <DependentUpon>Notification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GeneralSetting.resx">
+    <EmbeddedResource Include="Forms\Setting Forms\GeneralSetting.resx">
       <DependentUpon>GeneralSetting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Personalize.resx">
+    <EmbeddedResource Include="Forms\Setting Forms\Personalize.resx">
       <DependentUpon>Personalize.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SignIn.resx">
-      <DependentUpon>SignIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SignUp.resx">
-      <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
