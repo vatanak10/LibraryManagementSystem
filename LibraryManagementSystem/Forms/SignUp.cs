@@ -16,10 +16,5 @@ namespace LibraryManagementSystem.Forms
         {
             InitializeComponent();
         }
-
-        private void SignUp_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
