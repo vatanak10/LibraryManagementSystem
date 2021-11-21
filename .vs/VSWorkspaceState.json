@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LibraryManagementSystem",
-    "\\LibraryManagementSystem\\Forms",
-    "\\LibraryManagementSystem\\Forms\\UserDashboad_LMS",
-    "\\LibraryManagementSystem\\Forms\\UserDashboad_LMS\\WindowsFormsAppLibrarymanagementsystem_UserDashboard"
+    "\\LibraryManagementSystem"
   ],
-  "SelectedNode": "\\LibraryManagementSystem\\Forms\\UserDashboad_LMS\\WindowsFormsAppLibrarymanagementsystem_UserDashboard",
+  "SelectedNode": "\\LibraryManagementSystem\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
