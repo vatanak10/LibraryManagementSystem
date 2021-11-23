@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\LibraryManagementSystem",
     "\\LibraryManagementSystem\\Forms"
   ],
   "SelectedNode": "\\LibraryManagementSystem\\Forms\\Setting Forms",
+=======
+    "\\LibraryManagementSystem"
+  ],
+  "SelectedNode": "\\LibraryManagementSystem\\Program.cs",
+>>>>>>> a26183c55da29bd40d5eb8f2c00633bdf2e76ff8
   "PreviewInSolutionExplorer": false
 }
